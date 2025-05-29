@@ -152,7 +152,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "C"
-				(at 0.635 2.54 0)
+				(at 0.635 3.175 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -161,13 +161,12 @@
 				)
 			)
 			(property "Value" "100p"
-				(at 0.635 -2.54 0)
+				(at 0.635 -3.175 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left)
-					(hide yes)
 				)
 			)
 			(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
@@ -195,6 +194,33 @@
 						(size 1.27 1.27)
 					)
 					(hide yes)
+				)
+			)
+			(property "Package/Case" "0402"
+				(at 2.54 1.27 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+					(justify left)
+				)
+			)
+			(property "Voltage" "50V"
+				(at 2.54 -1.27 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+					(justify left)
+				)
+			)
+			(property "Material" "C0G"
+				(at 2.54 0 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+					(justify left)
 				)
 			)
 			(property "IPN" "CAP-4001-0101"
@@ -230,22 +256,6 @@
 					(font
 						(size 1.27 1.27)
 					)
-				)
-			)
-			(property "Voltage" "50V"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Material" "C0G"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
 					(hide yes)
 				)
 			)
@@ -256,14 +266,6 @@
 						(size 1.27 1.27)
 					)
 					(hide yes)
-				)
-			)
-			(property "Case/Package" "0402"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
 				)
 			)
 			(property "ki_keywords" "cap capacitor"
@@ -361,7 +363,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "C"
-				(at 0.635 2.54 0)
+				(at 0.635 3.175 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -370,16 +372,15 @@
 				)
 			)
 			(property "Value" "1u"
-				(at 0.635 -2.54 0)
+				(at 0.635 -3.175 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left)
-					(hide yes)
 				)
 			)
-			(property "Footprint" "Capacitor_SMD:C_0805:2012Metric"
+			(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 				(at 0.9652 -3.81 0)
 				(effects
 					(font
@@ -404,6 +405,33 @@
 						(size 1.27 1.27)
 					)
 					(hide yes)
+				)
+			)
+			(property "Package/Case" "0805"
+				(at 2.54 1.27 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+					(justify left)
+				)
+			)
+			(property "Voltage" "25V+"
+				(at 2.54 -1.27 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+					(justify left)
+				)
+			)
+			(property "Material" "X7R"
+				(at 2.54 0 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+					(justify left)
 				)
 			)
 			(property "IPN" "CAP-4105-001U"
@@ -439,22 +467,6 @@
 					(font
 						(size 1.27 1.27)
 					)
-				)
-			)
-			(property "Voltage" "25V+"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Material" "X7R"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
 					(hide yes)
 				)
 			)
@@ -467,14 +479,6 @@
 					(hide yes)
 				)
 			)
-			(property "Case/Package" "0805"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
 			(property "ki_keywords" "cap capacitor"
 				(at 0 0 0)
 				(effects
@@ -484,7 +488,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Capacitor_SMD:C_0805:2012Metric"
+			(property "ki_fp_filters" "Capacitor_SMD:C_0805_2012Metric"
 				(at 0 0 0)
 				(effects
 					(font
@@ -570,7 +574,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "C"
-				(at 0.635 2.54 0)
+				(at 0.635 3.175 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -579,13 +583,12 @@
 				)
 			)
 			(property "Value" "2.2u"
-				(at 0.635 -2.54 0)
+				(at 0.635 -3.175 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left)
-					(hide yes)
 				)
 			)
 			(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
@@ -613,6 +616,33 @@
 						(size 1.27 1.27)
 					)
 					(hide yes)
+				)
+			)
+			(property "Package/Case" "1206"
+				(at 2.54 1.27 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+					(justify left)
+				)
+			)
+			(property "Voltage" "25V+"
+				(at 2.54 -1.27 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+					(justify left)
+				)
+			)
+			(property "Material" "X7R"
+				(at 2.54 0 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+					(justify left)
 				)
 			)
 			(property "IPN" "CAP-4106-02U2"
@@ -648,22 +678,6 @@
 					(font
 						(size 1.27 1.27)
 					)
-				)
-			)
-			(property "Voltage" "25V+"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Material" "X7R"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
 					(hide yes)
 				)
 			)
@@ -674,14 +688,6 @@
 						(size 1.27 1.27)
 					)
 					(hide yes)
-				)
-			)
-			(property "Case/Package" "1206"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
 				)
 			)
 			(property "ki_keywords" "cap capacitor"
@@ -779,7 +785,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "C"
-				(at 0.635 2.54 0)
+				(at 0.635 3.175 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -788,13 +794,12 @@
 				)
 			)
 			(property "Value" "1u"
-				(at 0.635 -2.54 0)
+				(at 0.635 -3.175 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left)
-					(hide yes)
 				)
 			)
 			(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
@@ -822,6 +827,33 @@
 						(size 1.27 1.27)
 					)
 					(hide yes)
+				)
+			)
+			(property "Package/Case" "0603"
+				(at 2.54 1.27 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+					(justify left)
+				)
+			)
+			(property "Voltage" "10V+"
+				(at 2.54 -1.27 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+					(justify left)
+				)
+			)
+			(property "Material" "X7R"
+				(at 2.54 0 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+					(justify left)
 				)
 			)
 			(property "IPN" "CAP-4107-001U"
@@ -857,22 +889,6 @@
 					(font
 						(size 1.27 1.27)
 					)
-				)
-			)
-			(property "Voltage" "10V+"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Material" "X7R"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
 					(hide yes)
 				)
 			)
@@ -883,14 +899,6 @@
 						(size 1.27 1.27)
 					)
 					(hide yes)
-				)
-			)
-			(property "Case/Package" "0603"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
 				)
 			)
 			(property "ki_keywords" "cap capacitor"
@@ -988,7 +996,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "C"
-				(at 0.635 2.54 0)
+				(at 0.635 3.175 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -997,13 +1005,12 @@
 				)
 			)
 			(property "Value" "2.2u"
-				(at 0.635 -2.54 0)
+				(at 0.635 -3.175 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left)
-					(hide yes)
 				)
 			)
 			(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
@@ -1031,6 +1038,33 @@
 						(size 1.27 1.27)
 					)
 					(hide yes)
+				)
+			)
+			(property "Package/Case" "0603"
+				(at 2.54 1.27 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+					(justify left)
+				)
+			)
+			(property "Voltage" "10V+"
+				(at 2.54 -1.27 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+					(justify left)
+				)
+			)
+			(property "Material" "X7R"
+				(at 2.54 0 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+					(justify left)
 				)
 			)
 			(property "IPN" "CAP-4107-02U2"
@@ -1066,22 +1100,6 @@
 					(font
 						(size 1.27 1.27)
 					)
-				)
-			)
-			(property "Voltage" "10V+"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Material" "X7R"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
 					(hide yes)
 				)
 			)
@@ -1092,14 +1110,6 @@
 						(size 1.27 1.27)
 					)
 					(hide yes)
-				)
-			)
-			(property "Case/Package" "0603"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
 				)
 			)
 			(property "ki_keywords" "cap capacitor"
@@ -1197,7 +1207,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "C"
-				(at 0.635 2.54 0)
+				(at 0.635 3.175 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1206,13 +1216,12 @@
 				)
 			)
 			(property "Value" "10u"
-				(at 0.635 -2.54 0)
+				(at 0.635 -3.175 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left)
-					(hide yes)
 				)
 			)
 			(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
@@ -1240,6 +1249,33 @@
 						(size 1.27 1.27)
 					)
 					(hide yes)
+				)
+			)
+			(property "Package/Case" "1210"
+				(at 2.54 1.27 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+					(justify left)
+				)
+			)
+			(property "Voltage" "25V+"
+				(at 2.54 -1.27 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+					(justify left)
+				)
+			)
+			(property "Material" "X7R"
+				(at 2.54 0 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+					(justify left)
 				)
 			)
 			(property "IPN" "CAP-4112-010U"
@@ -1275,22 +1311,6 @@
 					(font
 						(size 1.27 1.27)
 					)
-				)
-			)
-			(property "Voltage" "25V+"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Material" "X7R"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
 					(hide yes)
 				)
 			)
@@ -1301,14 +1321,6 @@
 						(size 1.27 1.27)
 					)
 					(hide yes)
-				)
-			)
-			(property "Case/Package" "1210"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
 				)
 			)
 			(property "ki_keywords" "cap capacitor"
@@ -1378,234 +1390,6 @@
 					(at 0 -3.81 90)
 					(length 2.794)
 					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "#gplm:dio/DIO-1006-0001"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "g-dio:LED_D5.0mm_Standoff"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "LED PTH 5mm Round – Standoff"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "IPN" "DIO-1006-0001"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Current" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Voltage" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "LED diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "g-dio:LED_D5.0mm_Standoff"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "dio/DIO-1006-0001_0_1"
-				(polyline
-					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "dio/DIO-1006-0001_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1932,6 +1716,267 @@
 					(at 2.54 -5.08 90)
 					(length 2.54)
 					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "#gplm:led/LED-2000-0000"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "g-dio:LED_D5.0mm_Standoff"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "IPN" "LED-2000-0000"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Color" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "I-forward-max" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Package/Case" "5mm Round"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "V-forward" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Wavelength" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Luminosity" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "g-dio:LED_D5.0mm_Standoff"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "led/LED-2000-0000_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "led/LED-2000-0000_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2812,24 +2857,27 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
-				(at 2.54 0 90)
+				(at 0.635 3.175 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Value" "3.3k"
-				(at -2.54 0 90)
+				(at 0.635 -3.175 0)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
 					)
-					(hide yes)
+					(justify left)
 				)
 			)
 			(property "Footprint" "g-res:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.5mm_Horizontal"
-				(at 1.016 -0.254 90)
+				(at -1.778 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2853,6 +2901,33 @@
 						(size 1.27 1.27)
 					)
 					(hide yes)
+				)
+			)
+			(property "Power" "0.25W"
+				(at 1.27 0 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+					(justify left)
+				)
+			)
+			(property "Tolerance" "1.00%"
+				(at 1.27 -1.27 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+					(justify left)
+				)
+			)
+			(property "Package/Case" "Ax-7mm"
+				(at 1.27 1.27 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+					(justify left)
 				)
 			)
 			(property "IPN" "RES-1001-3301"
@@ -2888,9 +2963,10 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
-			(property "Power" "0.25W"
+			(property "Voltage" "250V"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2899,15 +2975,25 @@
 					(hide yes)
 				)
 			)
-			(property "Case/Package" "Axial"
+			(property "Composition" "Metal Film"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
-			(property "Tolerance" "1.00%"
+			(property "Temp Coefficient" "100ppm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "2.6mm"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3047,24 +3133,27 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
-				(at 2.54 0 90)
+				(at 0.635 3.175 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Value" "1"
-				(at -2.54 0 90)
+				(at 0.635 -3.175 0)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
 					)
-					(hide yes)
+					(justify left)
 				)
 			)
 			(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-				(at 1.016 -0.254 90)
+				(at -1.778 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3088,6 +3177,33 @@
 						(size 1.27 1.27)
 					)
 					(hide yes)
+				)
+			)
+			(property "Power" "100mW"
+				(at 1.27 0 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+					(justify left)
+				)
+			)
+			(property "Tolerance" "0.10%"
+				(at 1.27 -1.27 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+					(justify left)
+				)
+			)
+			(property "Package/Case" "0603"
+				(at 1.27 1.27 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+					(justify left)
 				)
 			)
 			(property "IPN" "RES-2001-001R"
@@ -3123,9 +3239,10 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
-			(property "Power" "100mW"
+			(property "Voltage" "75V"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3134,15 +3251,25 @@
 					(hide yes)
 				)
 			)
-			(property "Case/Package" "0603"
+			(property "Composition" "Thin Film"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
-			(property "Tolerance" "0.10%"
+			(property "Temp Coefficient" "25ppm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.55mm"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3282,24 +3409,27 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
-				(at 2.54 0 90)
+				(at 0.635 3.175 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Value" "3.3k"
-				(at -2.54 0 90)
+				(at 0.635 -3.175 0)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
 					)
-					(hide yes)
+					(justify left)
 				)
 			)
 			(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-				(at 1.016 -0.254 90)
+				(at -1.778 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3323,6 +3453,33 @@
 						(size 1.27 1.27)
 					)
 					(hide yes)
+				)
+			)
+			(property "Power" "100mW"
+				(at 1.27 0 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+					(justify left)
+				)
+			)
+			(property "Tolerance" "0.10%"
+				(at 1.27 -1.27 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+					(justify left)
+				)
+			)
+			(property "Package/Case" "0603"
+				(at 1.27 1.27 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+					(justify left)
 				)
 			)
 			(property "IPN" "RES-2001-03K3"
@@ -3358,9 +3515,10 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
-			(property "Power" "100mW"
+			(property "Voltage" "75V"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3369,15 +3527,25 @@
 					(hide yes)
 				)
 			)
-			(property "Case/Package" "0603"
+			(property "Composition" "Thin Film"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
-			(property "Tolerance" "0.10%"
+			(property "Temp Coefficient" "25ppm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.55mm"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3517,24 +3685,27 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
-				(at 2.54 0 90)
+				(at 0.635 3.175 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Value" "82k"
-				(at -2.54 0 90)
+				(at 0.635 -3.175 0)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
 					)
-					(hide yes)
+					(justify left)
 				)
 			)
 			(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-				(at 1.016 -0.254 90)
+				(at -1.778 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3558,6 +3729,33 @@
 						(size 1.27 1.27)
 					)
 					(hide yes)
+				)
+			)
+			(property "Power" "100mW"
+				(at 1.27 0 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+					(justify left)
+				)
+			)
+			(property "Tolerance" "0.10%"
+				(at 1.27 -1.27 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+					(justify left)
+				)
+			)
+			(property "Package/Case" "0603"
+				(at 1.27 1.27 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+					(justify left)
 				)
 			)
 			(property "IPN" "RES-2001-082K"
@@ -3593,9 +3791,10 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
-			(property "Power" "100mW"
+			(property "Voltage" "75V"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3604,15 +3803,25 @@
 					(hide yes)
 				)
 			)
-			(property "Case/Package" "0603"
+			(property "Composition" "Thin Film"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
-			(property "Tolerance" "0.10%"
+			(property "Temp Coefficient" "25ppm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.55mm"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3752,24 +3961,27 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
-				(at 2.54 0 90)
+				(at 0.635 3.175 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Value" "100k"
-				(at -2.54 0 90)
+				(at 0.635 -3.175 0)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
 					)
-					(hide yes)
+					(justify left)
 				)
 			)
 			(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-				(at 1.016 -0.254 90)
+				(at -1.778 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3793,6 +4005,33 @@
 						(size 1.27 1.27)
 					)
 					(hide yes)
+				)
+			)
+			(property "Power" "100mW"
+				(at 1.27 0 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+					(justify left)
+				)
+			)
+			(property "Tolerance" "0.10%"
+				(at 1.27 -1.27 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+					(justify left)
+				)
+			)
+			(property "Package/Case" "0603"
+				(at 1.27 1.27 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+					(justify left)
 				)
 			)
 			(property "IPN" "RES-2001-100K"
@@ -3828,9 +4067,10 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
-			(property "Power" "100mW"
+			(property "Voltage" "75V"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3839,15 +4079,25 @@
 					(hide yes)
 				)
 			)
-			(property "Case/Package" "0603"
+			(property "Composition" "Thin Film"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
-			(property "Tolerance" "0.10%"
+			(property "Temp Coefficient" "25ppm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.55mm"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3987,24 +4237,27 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
-				(at 2.54 0 90)
+				(at 0.635 3.175 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Value" "10"
-				(at -2.54 0 90)
+				(at 0.635 -3.175 0)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
 					)
-					(hide yes)
+					(justify left)
 				)
 			)
 			(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-				(at 1.016 -0.254 90)
+				(at -1.778 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4028,6 +4281,33 @@
 						(size 1.27 1.27)
 					)
 					(hide yes)
+				)
+			)
+			(property "Power" "63mW"
+				(at 1.27 0 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+					(justify left)
+				)
+			)
+			(property "Tolerance" "0.10%"
+				(at 1.27 -1.27 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+					(justify left)
+				)
+			)
+			(property "Package/Case" "0402"
+				(at 1.27 1.27 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+					(justify left)
 				)
 			)
 			(property "IPN" "RES-2002-010R"
@@ -4063,9 +4343,10 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
-			(property "Power" "63mW"
+			(property "Voltage" "50V"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4074,15 +4355,25 @@
 					(hide yes)
 				)
 			)
-			(property "Case/Package" "0402"
+			(property "Composition" "Thin Film"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
-			(property "Tolerance" "0.10%"
+			(property "Temp Coefficient" "25ppm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.35mm"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4222,24 +4513,27 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
-				(at 2.54 0 90)
+				(at 0.635 3.175 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Value" "27k"
-				(at -2.54 0 90)
+				(at 0.635 -3.175 0)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
 					)
-					(hide yes)
+					(justify left)
 				)
 			)
 			(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-				(at 1.016 -0.254 90)
+				(at -1.778 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4263,6 +4557,33 @@
 						(size 1.27 1.27)
 					)
 					(hide yes)
+				)
+			)
+			(property "Power" "63mW"
+				(at 1.27 0 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+					(justify left)
+				)
+			)
+			(property "Tolerance" "0.10%"
+				(at 1.27 -1.27 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+					(justify left)
+				)
+			)
+			(property "Package/Case" "0402"
+				(at 1.27 1.27 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+					(justify left)
 				)
 			)
 			(property "IPN" "RES-2002-027K"
@@ -4298,9 +4619,10 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
-			(property "Power" "63mW"
+			(property "Voltage" "50V"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4309,15 +4631,25 @@
 					(hide yes)
 				)
 			)
-			(property "Case/Package" "0402"
+			(property "Composition" "Thin Film"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
-			(property "Tolerance" "0.10%"
+			(property "Temp Coefficient" "25ppm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.35mm"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4457,24 +4789,27 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
-				(at 2.54 0 90)
+				(at 0.635 3.175 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Value" "36k"
-				(at -2.54 0 90)
+				(at 0.635 -3.175 0)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
 					)
-					(hide yes)
+					(justify left)
 				)
 			)
 			(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-				(at 1.016 -0.254 90)
+				(at -1.778 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4498,6 +4833,33 @@
 						(size 1.27 1.27)
 					)
 					(hide yes)
+				)
+			)
+			(property "Power" "63mW"
+				(at 1.27 0 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+					(justify left)
+				)
+			)
+			(property "Tolerance" "0.10%"
+				(at 1.27 -1.27 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+					(justify left)
+				)
+			)
+			(property "Package/Case" "0402"
+				(at 1.27 1.27 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+					(justify left)
 				)
 			)
 			(property "IPN" "RES-2002-036K"
@@ -4533,9 +4895,10 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
-			(property "Power" "63mW"
+			(property "Voltage" "50V"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4544,15 +4907,25 @@
 					(hide yes)
 				)
 			)
-			(property "Case/Package" "0402"
+			(property "Composition" "Thin Film"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
-			(property "Tolerance" "0.10%"
+			(property "Temp Coefficient" "25ppm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.35mm"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4692,24 +5065,27 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
-				(at 2.54 0 90)
+				(at 0.635 3.175 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Value" "100k"
-				(at -2.54 0 90)
+				(at 0.635 -3.175 0)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
 					)
-					(hide yes)
+					(justify left)
 				)
 			)
 			(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-				(at 1.016 -0.254 90)
+				(at -1.778 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4733,6 +5109,33 @@
 						(size 1.27 1.27)
 					)
 					(hide yes)
+				)
+			)
+			(property "Power" "63mW"
+				(at 1.27 0 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+					(justify left)
+				)
+			)
+			(property "Tolerance" "0.10%"
+				(at 1.27 -1.27 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+					(justify left)
+				)
+			)
+			(property "Package/Case" "0402"
+				(at 1.27 1.27 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+					(justify left)
 				)
 			)
 			(property "IPN" "RES-2002-100K"
@@ -4768,9 +5171,10 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
-			(property "Power" "63mW"
+			(property "Voltage" "50V"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4779,15 +5183,25 @@
 					(hide yes)
 				)
 			)
-			(property "Case/Package" "0402"
+			(property "Composition" "Thin Film"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
-			(property "Tolerance" "0.10%"
+			(property "Temp Coefficient" "25ppm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.35mm"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5915,7 +6329,7 @@
 	)
 	(text "Charge Pump 2\n-4.5V -> -9V"
 		(exclude_from_sim no)
-		(at 226.06 27.94 0)
+		(at 228.6 27.94 0)
 		(effects
 			(font
 				(size 1 1)
@@ -5971,22 +6385,22 @@
 		(uuid "fdcbd465-b9e9-4ea9-80e2-0b1bf06fc37c")
 	)
 	(junction
+		(at 132.08 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "10c06959-16bf-4312-8f80-b223525c576b")
+	)
+	(junction
 		(at 245.11 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "05bff654-4bc9-4d00-9ec4-fb839f5216ef")
-	)
-	(junction
-		(at 215.9 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0ef87fca-0b09-437c-9e48-6db31da2b3d3")
-	)
-	(junction
-		(at 242.57 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
 		(uuid "19e2d60d-14af-40b3-bed3-e34975666566")
+	)
+	(junction
+		(at 205.74 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "21941d6d-e285-432b-b054-a9ce4031e9ce")
 	)
 	(junction
 		(at 151.13 38.1)
@@ -6007,12 +6421,6 @@
 		(uuid "3537f5c5-c704-4583-8817-7bceb3ed4536")
 	)
 	(junction
-		(at 99.06 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "508c8dc3-000f-4f9d-b8d0-55a9eac12041")
-	)
-	(junction
 		(at 110.49 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6029,12 +6437,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "71b93cf9-2b8b-4e14-9081-9c6b46f768c9")
-	)
-	(junction
-		(at 120.65 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7321238b-1a53-459f-8cd0-2cd77ae94576")
 	)
 	(junction
 		(at 58.42 165.1)
@@ -6055,10 +6457,10 @@
 		(uuid "7f02f8ba-17bb-4c93-bf30-bc6bd237e88d")
 	)
 	(junction
-		(at 203.2 38.1)
+		(at 110.49 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "800c7b04-aab8-455a-8edb-453bf7af2510")
+		(uuid "82fab224-09ff-4030-a3c1-4209d312a310")
 	)
 	(junction
 		(at 49.53 60.96)
@@ -6103,40 +6505,10 @@
 		(uuid "a5f713a4-45b3-4e6d-a6de-b75c4369c8a0")
 	)
 	(junction
-		(at 132.08 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b1079c03-dd86-410f-a673-22bcb70d4aab")
-	)
-	(junction
 		(at 72.39 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b1df68ce-2c04-424f-aac3-45cb705ba677")
-	)
-	(junction
-		(at 236.22 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b3a6569f-6f95-425f-a05f-87ca726b1d38")
-	)
-	(junction
-		(at 177.8 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b50bb555-26c4-4a2d-a570-164451cec19c")
-	)
-	(junction
-		(at 198.12 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b5c40620-6c9b-4a0d-bf17-39f579b63f7a")
-	)
-	(junction
-		(at 110.49 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b70a6101-7cdb-44be-9dcc-8b5cdb03ef33")
 	)
 	(junction
 		(at 134.62 38.1)
@@ -6163,7 +6535,7 @@
 		(uuid "d8f19cbe-f287-402c-9aa1-6d17a780e2f7")
 	)
 	(junction
-		(at 214.63 38.1)
+		(at 215.9 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "db50db4c-e3de-4071-a013-4c1ed6e6237e")
@@ -6175,16 +6547,28 @@
 		(uuid "ddac3b52-6737-4696-8e5d-714bddfd3dd9")
 	)
 	(junction
-		(at 110.49 59.69)
+		(at 110.49 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ddf26d68-7771-4cee-8fdc-bfc4c218e2f9")
+		(uuid "dece2614-7303-4d9b-a2f6-52a78899c169")
+	)
+	(junction
+		(at 248.92 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e302c101-9eca-4fb2-a20f-1dd63cca8622")
 	)
 	(junction
 		(at 165.1 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eb4e1377-1666-460b-b209-b840dd7abda7")
+	)
+	(junction
+		(at 120.65 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f706e4f8-b5ff-428e-bf6d-4d2d264bbd52")
 	)
 	(junction
 		(at 110.49 38.1)
@@ -6199,6 +6583,12 @@
 		(uuid "f97cc6ce-cd9c-4411-b8a6-32feda62345f")
 	)
 	(junction
+		(at 99.06 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fc2fb98b-07e1-4113-bf7d-c89b3f785684")
+	)
+	(junction
 		(at 69.85 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6210,13 +6600,23 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 41.91) (xy 203.2 38.1)
+			(xy 205.74 41.91) (xy 205.74 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "027f3634-348d-4501-97e1-4eb788134eb2")
+	)
+	(wire
+		(pts
+			(xy 200.66 48.26) (xy 198.12 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0341c2c0-40a7-41b1-88b2-d5cf24c324c4")
 	)
 	(wire
 		(pts
@@ -6247,16 +6647,6 @@
 			(type default)
 		)
 		(uuid "0990a755-f64a-4dfe-b9f1-8a9d5c4b3ad6")
-	)
-	(wire
-		(pts
-			(xy 198.12 48.26) (xy 198.12 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0aff5f59-e448-430a-bb4d-7ebc7e35edc4")
 	)
 	(wire
 		(pts
@@ -6300,6 +6690,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 58.42) (xy 120.65 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bf3e0f2-257d-4cc2-a17a-bc2b4aab8c5f")
+	)
+	(wire
+		(pts
 			(xy 43.18 49.53) (xy 43.18 60.96)
 		)
 		(stroke
@@ -6307,6 +6707,16 @@
 			(type default)
 		)
 		(uuid "1d595eda-172d-425f-b313-445d000519cf")
+	)
+	(wire
+		(pts
+			(xy 110.49 63.5) (xy 110.49 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1df68981-0129-4822-b7bd-0f5004d72df7")
 	)
 	(wire
 		(pts
@@ -6330,17 +6740,17 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 54.61) (xy 177.8 48.26)
+			(xy 241.3 48.26) (xy 241.3 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "29058164-9c4d-412b-b1ff-8957da55c7d3")
+		(uuid "28f895be-07dd-48c3-bfbd-a315021b069e")
 	)
 	(wire
 		(pts
-			(xy 132.08 62.23) (xy 140.97 62.23)
+			(xy 132.08 63.5) (xy 140.97 63.5)
 		)
 		(stroke
 			(width 0)
@@ -6357,16 +6767,6 @@
 			(type default)
 		)
 		(uuid "2bd08cc2-723e-43b1-8cfe-7e40e5b29018")
-	)
-	(wire
-		(pts
-			(xy 54.61 165.1) (xy 58.42 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2bd3840a-3cea-4ffb-8e35-f77319e3e44b")
 	)
 	(wire
 		(pts
@@ -6410,7 +6810,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 38.1) (xy 242.57 38.1)
+			(xy 238.76 38.1) (xy 245.11 38.1)
 		)
 		(stroke
 			(width 0)
@@ -6460,6 +6860,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 48.26) (xy 175.26 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41fd319c-7e48-4440-995a-eeb41d96f6c7")
+	)
+	(wire
+		(pts
 			(xy 72.39 60.96) (xy 60.96 60.96)
 		)
 		(stroke
@@ -6500,7 +6910,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 40.64) (xy 93.98 59.69)
+			(xy 93.98 40.64) (xy 93.98 60.96)
 		)
 		(stroke
 			(width 0)
@@ -6570,7 +6980,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 40.64) (xy 214.63 38.1)
+			(xy 215.9 40.64) (xy 215.9 38.1)
 		)
 		(stroke
 			(width 0)
@@ -6620,16 +7030,6 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 38.1) (xy 212.09 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6540075d-acc4-48f9-a0a2-33880c61d45e")
-	)
-	(wire
-		(pts
 			(xy 49.53 55.88) (xy 49.53 60.96)
 		)
 		(stroke
@@ -6670,23 +7070,23 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 58.42) (xy 110.49 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d26e4d9-0a6a-4c8d-b150-403d8f3a6137")
-	)
-	(wire
-		(pts
-			(xy 214.63 38.1) (xy 215.9 38.1)
+			(xy 215.9 38.1) (xy 218.44 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "70f12554-1ec7-438a-ad1a-5846c592c864")
+	)
+	(wire
+		(pts
+			(xy 110.49 60.96) (xy 110.49 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "718644e6-09a2-413a-ae6f-0bd037676853")
 	)
 	(wire
 		(pts
@@ -6700,7 +7100,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 54.61) (xy 177.8 54.61)
+			(xy 184.15 55.88) (xy 175.26 55.88)
 		)
 		(stroke
 			(width 0)
@@ -6750,23 +7150,13 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 58.42) (xy 120.65 62.23)
+			(xy 175.26 48.26) (xy 177.8 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "78068383-19e9-455b-87b6-077a2f6fffff")
-	)
-	(wire
-		(pts
-			(xy 215.9 54.61) (xy 215.9 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ce425ae-aee8-4ee9-8a09-0d77106c333b")
+		(uuid "7ae05c00-8e33-49f0-8043-f47bf6346a28")
 	)
 	(wire
 		(pts
@@ -6780,7 +7170,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 40.64) (xy 214.63 40.64)
+			(xy 215.9 40.64) (xy 218.44 40.64)
 		)
 		(stroke
 			(width 0)
@@ -6790,13 +7180,33 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 62.23) (xy 132.08 62.23)
+			(xy 200.66 48.26) (xy 200.66 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83dc02a0-d99d-41e5-b8f3-5512eba1385c")
+	)
+	(wire
+		(pts
+			(xy 120.65 63.5) (xy 132.08 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "842728da-fc2f-4303-b4da-92c4c73cbbbd")
+	)
+	(wire
+		(pts
+			(xy 248.92 38.1) (xy 254 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "848ce840-75f0-458c-9a81-dc488df37065")
 	)
 	(wire
 		(pts
@@ -6850,27 +7260,17 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 165.1) (xy 81.28 165.1)
+			(xy 205.74 38.1) (xy 213.36 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8a013c5c-50e4-4068-837f-89fc478828dc")
+		(uuid "87cd34db-5f1c-44bb-840a-af1a1752ab13")
 	)
 	(wire
 		(pts
-			(xy 236.22 54.61) (xy 236.22 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ac4435f-6d8d-46c9-a97b-c94dc263bf1a")
-	)
-	(wire
-		(pts
-			(xy 99.06 59.69) (xy 110.49 59.69)
+			(xy 99.06 60.96) (xy 110.49 60.96)
 		)
 		(stroke
 			(width 0)
@@ -6880,7 +7280,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 58.42) (xy 140.97 62.23)
+			(xy 140.97 58.42) (xy 140.97 63.5)
 		)
 		(stroke
 			(width 0)
@@ -6890,7 +7290,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 165.1) (xy 59.69 165.1)
+			(xy 58.42 165.1) (xy 62.23 165.1)
 		)
 		(stroke
 			(width 0)
@@ -6917,6 +7317,16 @@
 			(type default)
 		)
 		(uuid "8e27b037-b789-4a1c-bde6-6e2695d3d464")
+	)
+	(wire
+		(pts
+			(xy 215.9 48.26) (xy 215.9 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e4a53b9-a83e-479f-9c33-3095018251c9")
 	)
 	(wire
 		(pts
@@ -6950,7 +7360,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 43.18) (xy 215.9 43.18)
+			(xy 213.36 43.18) (xy 218.44 43.18)
 		)
 		(stroke
 			(width 0)
@@ -6960,7 +7370,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 43.18) (xy 175.26 43.18)
+			(xy 177.8 43.18) (xy 172.72 43.18)
 		)
 		(stroke
 			(width 0)
@@ -6970,7 +7380,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 38.1) (xy 245.11 41.91)
+			(xy 248.92 38.1) (xy 248.92 41.91)
 		)
 		(stroke
 			(width 0)
@@ -6990,23 +7400,23 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 54.61) (xy 198.12 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94aed2d1-37bb-4628-944d-eb0ce6765142")
-	)
-	(wire
-		(pts
-			(xy 245.11 49.53) (xy 245.11 55.88)
+			(xy 248.92 49.53) (xy 248.92 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9730c6da-133f-4201-a007-312368ebbb06")
+	)
+	(wire
+		(pts
+			(xy 132.08 58.42) (xy 132.08 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98a79ba2-42bc-4cae-8d1c-4e20222b210a")
 	)
 	(wire
 		(pts
@@ -7017,16 +7427,6 @@
 			(type default)
 		)
 		(uuid "9a474b88-7afe-4069-a471-b51b2600b9e3")
-	)
-	(wire
-		(pts
-			(xy 222.25 54.61) (xy 215.9 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ac54b58-06b0-4d27-9ecc-c49b409b1763")
 	)
 	(wire
 		(pts
@@ -7047,6 +7447,16 @@
 			(type default)
 		)
 		(uuid "9d220ae8-9a18-47aa-b4a6-2866ce1b7747")
+	)
+	(wire
+		(pts
+			(xy 215.9 48.26) (xy 218.44 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a09a03e2-d5ea-4bac-bb47-7ffe0d19becb")
 	)
 	(wire
 		(pts
@@ -7080,17 +7490,17 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 58.42) (xy 132.08 62.23)
+			(xy 215.9 55.88) (xy 224.79 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a4b949bc-f3c1-4946-81cb-cf13b5215496")
+		(uuid "a241884e-0d54-4527-a277-c19d7f0e1c9f")
 	)
 	(wire
 		(pts
-			(xy 242.57 38.1) (xy 245.11 38.1)
+			(xy 245.11 38.1) (xy 248.92 38.1)
 		)
 		(stroke
 			(width 0)
@@ -7130,6 +7540,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 165.1) (xy 81.28 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aed176a4-2874-4d90-b82d-5c7102e0e9b2")
+	)
+	(wire
+		(pts
 			(xy 43.18 165.1) (xy 46.99 165.1)
 		)
 		(stroke
@@ -7137,16 +7557,6 @@
 			(type default)
 		)
 		(uuid "af163f21-3b53-41d6-8097-abf9d97e1d57")
-	)
-	(wire
-		(pts
-			(xy 110.49 62.23) (xy 110.49 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0dd4422-d66c-43a2-8905-4253252ddd7c")
 	)
 	(wire
 		(pts
@@ -7160,7 +7570,17 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 62.23) (xy 120.65 62.23)
+			(xy 99.06 48.26) (xy 99.06 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b306ef5e-7f6b-4863-b053-d36917b33361")
+	)
+	(wire
+		(pts
+			(xy 110.49 63.5) (xy 120.65 63.5)
 		)
 		(stroke
 			(width 0)
@@ -7200,16 +7620,6 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 54.61) (xy 177.8 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b562a8dc-42cd-4a52-98c8-08881c227c6d")
-	)
-	(wire
-		(pts
 			(xy 36.83 49.53) (xy 43.18 49.53)
 		)
 		(stroke
@@ -7240,7 +7650,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 49.53) (xy 203.2 55.88)
+			(xy 205.74 49.53) (xy 205.74 55.88)
 		)
 		(stroke
 			(width 0)
@@ -7260,16 +7670,6 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 48.26) (xy 236.22 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c366d384-0333-4f87-8222-19b3a2aa9c35")
-	)
-	(wire
-		(pts
 			(xy 71.12 38.1) (xy 72.39 38.1)
 		)
 		(stroke
@@ -7280,33 +7680,23 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 54.61) (xy 229.87 54.61)
+			(xy 241.3 48.26) (xy 238.76 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cddbd4b4-29cc-409e-a152-a7b573b610eb")
+		(uuid "ce64991d-c980-4aa7-bd73-0464257b6226")
 	)
 	(wire
 		(pts
-			(xy 110.49 59.69) (xy 110.49 62.23)
+			(xy 110.49 58.42) (xy 110.49 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d1d80823-7dd0-40c9-a95c-cc1c6c2631b9")
-	)
-	(wire
-		(pts
-			(xy 99.06 48.26) (xy 99.06 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2450af4-9005-4007-b8c1-f63ee571949f")
 	)
 	(wire
 		(pts
@@ -7317,16 +7707,6 @@
 			(type default)
 		)
 		(uuid "d3ea888f-15e8-4a95-b1b3-50064257b93b")
-	)
-	(wire
-		(pts
-			(xy 245.11 38.1) (xy 254 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4027ee5-d249-4bcb-afea-d20120a62d5c")
 	)
 	(wire
 		(pts
@@ -7380,7 +7760,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 38.1) (xy 203.2 38.1)
+			(xy 200.66 38.1) (xy 205.74 38.1)
 		)
 		(stroke
 			(width 0)
@@ -7397,16 +7777,6 @@
 			(type default)
 		)
 		(uuid "df3b3f60-a6a2-475a-b93f-31d4f78c0189")
-	)
-	(wire
-		(pts
-			(xy 215.9 54.61) (xy 215.9 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e028e870-4773-4766-8257-e97d467204e6")
 	)
 	(wire
 		(pts
@@ -7430,7 +7800,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 71.12) (xy 110.49 73.66)
+			(xy 110.49 73.66) (xy 110.49 76.2)
 		)
 		(stroke
 			(width 0)
@@ -7450,7 +7820,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 38.1) (xy 212.09 43.18)
+			(xy 213.36 38.1) (xy 213.36 43.18)
 		)
 		(stroke
 			(width 0)
@@ -7460,7 +7830,17 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 59.69) (xy 99.06 59.69)
+			(xy 54.61 165.1) (xy 58.42 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee6b18e8-c694-45ac-9f09-7921ac94e0db")
+	)
+	(wire
+		(pts
+			(xy 93.98 60.96) (xy 99.06 60.96)
 		)
 		(stroke
 			(width 0)
@@ -7490,13 +7870,23 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 54.61) (xy 198.12 54.61)
+			(xy 191.77 55.88) (xy 200.66 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f5d5d156-7a40-4f2c-add0-e7cfcce91e93")
+	)
+	(wire
+		(pts
+			(xy 232.41 55.88) (xy 241.3 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5edaee5-dfa7-4a39-b169-d8d71b2df4ef")
 	)
 	(wire
 		(pts
@@ -7510,7 +7900,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 43.18) (xy 175.26 54.61)
+			(xy 172.72 43.18) (xy 172.72 54.61)
 		)
 		(stroke
 			(width 0)
@@ -7530,7 +7920,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 35.56) (xy 214.63 38.1)
+			(xy 215.9 35.56) (xy 215.9 38.1)
 		)
 		(stroke
 			(width 0)
@@ -7550,7 +7940,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 54.61) (xy 165.1 54.61)
+			(xy 172.72 54.61) (xy 165.1 54.61)
 		)
 		(stroke
 			(width 0)
@@ -7579,37 +7969,17 @@
 		(uuid "00e21020-6b15-4ad6-94f5-db4e8b99536e")
 	)
 	(label "+CAP_B"
-		(at 215.9 55.88 270)
+		(at 224.79 55.88 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "0c90b6a5-260e-482a-84b8-664d298486ce")
-	)
-	(label "-CAP_A"
-		(at 198.12 55.88 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0da7a927-86f7-457c-8126-014fb56edc46")
-	)
-	(label "+CAP_A"
-		(at 177.8 55.88 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "318d9dad-6422-4bb4-a25c-a220cfb4b941")
+		(uuid "0ec8daa5-863c-4b5b-b75f-668df88600c8")
 	)
 	(label "LED+"
-		(at 54.61 165.1 0)
+		(at 55.88 165.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7619,7 +7989,7 @@
 		(uuid "42868ed4-6082-438c-aacc-daf4abefe956")
 	)
 	(label "LED-"
-		(at 69.85 165.1 0)
+		(at 72.39 165.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7649,7 +8019,7 @@
 		(uuid "8e3f167f-ad1e-417c-b353-2d0182441f81")
 	)
 	(label "FB"
-		(at 101.6 59.69 0)
+		(at 101.6 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7657,6 +8027,16 @@
 			(justify left bottom)
 		)
 		(uuid "8f04bb03-1198-4f0c-a9f3-27bdaeb6e6b0")
+	)
+	(label "-CAP_B"
+		(at 232.41 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "90581955-59f2-436b-95ee-a55511ddf70f")
 	)
 	(label "GND_SW"
 		(at 73.66 147.32 0)
@@ -7667,16 +8047,6 @@
 			(justify left bottom)
 		)
 		(uuid "97ddba59-1c37-419c-8acc-775d728a499e")
-	)
-	(label "-CAP_B"
-		(at 236.22 55.88 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9e14dcf5-3c3c-4ca3-af10-7bece5d3c4df")
 	)
 	(label "IN"
 		(at 55.88 132.08 0)
@@ -7689,14 +8059,24 @@
 		(uuid "ade68164-4094-48e0-92e5-529fc6b79ec0")
 	)
 	(label "Q1_G"
-		(at 63.5 46.99 0)
+		(at 68.58 46.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c1a247f1-c8ec-41c9-b862-bc09e3702f79")
+	)
+	(label "-CAP_A"
+		(at 191.77 55.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "c1a247f1-c8ec-41c9-b862-bc09e3702f79")
+		(uuid "c51929cd-d27b-476f-9ca2-2cf89217dcac")
 	)
 	(label "SEND"
 		(at 93.98 149.86 0)
@@ -7707,6 +8087,16 @@
 			(justify left bottom)
 		)
 		(uuid "c93c01f3-6c5f-40d6-8f2d-7fbd2d200a9a")
+	)
+	(label "+CAP_A"
+		(at 184.15 55.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e2372964-e920-4622-8260-476a0cb3630e")
 	)
 	(symbol
 		(lib_id "#gplm:tvs/TVS-1001-09B0")
@@ -7819,6 +8209,7 @@
 				(font
 					(size 0.762 0.762)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "T1"
@@ -7894,10 +8285,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0bd65f2b-768e-4bee-a93c-fd5ee4f40f51")
 		(property "Reference" "C9"
-			(at 274.32 41.9099 0)
+			(at 271.145 42.545 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7906,13 +8296,12 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 271.145 48.26 0)
+			(at 271.145 48.895 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
@@ -7970,30 +8359,30 @@
 			)
 		)
 		(property "Capacitance" "10u"
-			(at 274.32 44.4499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Voltage" "25V+"
-			(at 274.32 46.9899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Material" "X7R"
 			(at 270.51 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Voltage" "25V+"
+			(at 273.05 44.3174 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Material" "X7R"
+			(at 273.05 45.72 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
 			)
 		)
 		(property "Tolerance" "10%"
@@ -8005,11 +8394,11 @@
 				(hide yes)
 			)
 		)
-		(property "Case/Package" "1210"
-			(at 274.32 49.5299 0)
+		(property "Package/Case" "1210"
+			(at 273.05 47.1226 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.635 0.635)
 				)
 				(justify left)
 			)
@@ -8269,7 +8658,7 @@
 		(dnp no)
 		(uuid "173eddee-ff87-4a21-91f6-4ff80b0fd07d")
 		(property "Reference" "R3"
-			(at 62.23 49.53 0)
+			(at 61.595 48.895 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8278,16 +8667,18 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 58.42 52.07 90)
+			(at 61.595 55.245 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 61.976 52.324 90)
+			(at 59.182 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8341,15 +8732,6 @@
 			)
 		)
 		(property "Resistance" "100k"
-			(at 62.23 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Power" "63mW"
 			(at 60.96 52.07 0)
 			(effects
 				(font
@@ -8358,16 +8740,61 @@
 				(hide yes)
 			)
 		)
-		(property "Case/Package" "0402"
-			(at 62.23 54.61 0)
+		(property "Power" "63mW"
+			(at 62.23 52.07 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.635 0.635)
 				)
 				(justify left)
 			)
 		)
 		(property "Tolerance" "0.10%"
+			(at 62.23 53.34 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Package/Case" "0402"
+			(at 62.23 50.8 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 60.96 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Composition" "Thin Film"
+			(at 60.96 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temp Coefficient" "25ppm"
+			(at 60.96 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.35mm"
 			(at 60.96 52.07 0)
 			(effects
 				(font
@@ -8401,24 +8828,27 @@
 		(dnp no)
 		(uuid "1b105ce1-9691-49c6-8a1b-e0b0df602fa9")
 		(property "Reference" "R9"
-			(at 254 36.83 90)
+			(at 254.635 37.465 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "10"
-			(at 257.81 40.64 90)
+			(at 260.985 37.465 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 258.064 37.084 90)
+			(at 257.81 39.878 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8472,14 +8902,6 @@
 			)
 		)
 		(property "Resistance" "10"
-			(at 261.62 36.83 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" "63mW"
 			(at 257.81 38.1 0)
 			(effects
 				(font
@@ -8488,15 +8910,61 @@
 				(hide yes)
 			)
 		)
-		(property "Case/Package" "0402"
-			(at 257.81 40.64 90)
+		(property "Power" "63mW"
+			(at 257.81 36.83 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "0.10%"
+			(at 259.08 36.83 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Package/Case" "0402"
+			(at 256.54 36.83 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 257.81 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Tolerance" "0.10%"
+		(property "Composition" "Thin Film"
+			(at 257.81 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temp Coefficient" "25ppm"
+			(at 257.81 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.35mm"
 			(at 257.81 38.1 0)
 			(effects
 				(font
@@ -8595,7 +9063,7 @@
 		(dnp yes)
 		(uuid "24893435-5259-479c-8edf-0e3c9f1bd579")
 		(property "Reference" "R6"
-			(at 121.92 52.07 0)
+			(at 121.285 51.435 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8604,16 +9072,18 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 118.11 54.61 90)
+			(at 121.285 57.785 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 121.666 54.864 90)
+			(at 118.872 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8667,15 +9137,6 @@
 			)
 		)
 		(property "Resistance" "100k"
-			(at 121.92 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Power" "100mW"
 			(at 120.65 54.61 0)
 			(effects
 				(font
@@ -8684,16 +9145,61 @@
 				(hide yes)
 			)
 		)
-		(property "Case/Package" "0603"
-			(at 121.92 57.15 0)
+		(property "Power" "100mW"
+			(at 121.92 54.61 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.635 0.635)
 				)
 				(justify left)
 			)
 		)
 		(property "Tolerance" "0.10%"
+			(at 121.92 55.88 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Package/Case" "0603"
+			(at 121.92 53.34 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Voltage" "75V"
+			(at 120.65 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Composition" "Thin Film"
+			(at 120.65 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temp Coefficient" "25ppm"
+			(at 120.65 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.55mm"
 			(at 120.65 54.61 0)
 			(effects
 				(font
@@ -8795,21 +9301,19 @@
 		(dnp no)
 		(uuid "2ac724eb-8233-4c35-804c-a0d9a2b9f6a8")
 		(property "Reference" "RV1"
-			(at 113.03 53.34 0)
+			(at 114.3 53.975 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "B100k"
-			(at 113.03 55.8799 0)
+			(at 115.57 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" "g-pot:Potentiometer_Bourns_3362P_Vertical"
@@ -9170,7 +9674,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3de7b054-d835-429b-9710-c9453c38615c")
 		(property "Reference" "#PWR03"
 			(at 41.91 163.83 0)
@@ -9182,7 +9685,7 @@
 			)
 		)
 		(property "Value" "+9V"
-			(at 41.91 154.94 0)
+			(at 41.91 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9230,7 +9733,8 @@
 	)
 	(symbol
 		(lib_id "#gplm:cap/CAP-4107-001U")
-		(at 165.1 45.72 180)
+		(at 165.1 45.72 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9238,26 +9742,25 @@
 		(dnp no)
 		(uuid "448954e8-919f-458a-98e0-099dbe1c4986")
 		(property "Reference" "C4"
-			(at 167.64 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "2.2u"
-			(at 164.465 43.18 0)
+			(at 165.735 48.895 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
+			)
+		)
+		(property "Value" "1u"
+			(at 165.735 42.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 164.1348 41.91 0)
+			(at 166.0652 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9311,30 +9814,30 @@
 			)
 		)
 		(property "Capacitance" "1u"
-			(at 167.64 43.18 0)
+			(at 165.1 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Voltage" "10V+"
-			(at 167.64 48.26 0)
+			(at 167.64 44.45 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.635 0.635)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Material" "X7R"
 			(at 167.64 45.72 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.635 0.635)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Tolerance" "10%"
@@ -9346,13 +9849,13 @@
 				(hide yes)
 			)
 		)
-		(property "Case/Package" "0603"
-			(at 167.64 50.8 0)
+		(property "Package/Case" "0603"
+			(at 167.64 46.99 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.635 0.635)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "1"
@@ -9372,7 +9875,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 203.2 55.88 0)
+		(at 205.74 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9381,7 +9884,7 @@
 		(fields_autoplaced yes)
 		(uuid "4518e84c-cd73-4ed7-9fe5-06980fe26d86")
 		(property "Reference" "#PWR015"
-			(at 203.2 62.23 0)
+			(at 205.74 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9390,7 +9893,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 203.2 60.96 0)
+			(at 205.74 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9398,7 +9901,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 203.2 55.88 0)
+			(at 205.74 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9407,7 +9910,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 203.2 55.88 0)
+			(at 205.74 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9416,7 +9919,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 203.2 55.88 0)
+			(at 205.74 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9446,7 +9949,7 @@
 		(dnp no)
 		(uuid "4865fb53-dab4-4b2c-a1c0-ef0762140846")
 		(property "Reference" "R7"
-			(at 133.35 52.07 0)
+			(at 132.715 51.435 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9455,16 +9958,18 @@
 			)
 		)
 		(property "Value" "1"
-			(at 129.54 54.61 90)
+			(at 132.715 57.785 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 133.096 54.864 90)
+			(at 130.302 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9518,15 +10023,6 @@
 			)
 		)
 		(property "Resistance" "1"
-			(at 133.35 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Power" "100mW"
 			(at 132.08 54.61 0)
 			(effects
 				(font
@@ -9535,16 +10031,61 @@
 				(hide yes)
 			)
 		)
-		(property "Case/Package" "0603"
-			(at 133.35 57.15 0)
+		(property "Power" "100mW"
+			(at 133.35 54.61 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.635 0.635)
 				)
 				(justify left)
 			)
 		)
 		(property "Tolerance" "0.10%"
+			(at 133.35 55.88 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Package/Case" "0603"
+			(at 133.35 53.34 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Voltage" "75V"
+			(at 132.08 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Composition" "Thin Film"
+			(at 132.08 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temp Coefficient" "25ppm"
+			(at 132.08 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.55mm"
 			(at 132.08 54.61 0)
 			(effects
 				(font
@@ -9578,7 +10119,7 @@
 		(dnp yes)
 		(uuid "4a76d1cd-f8d2-4a0b-b7c6-90ceb504a001")
 		(property "Reference" "C3"
-			(at 101.6 40.64 0)
+			(at 99.695 41.275 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9587,13 +10128,12 @@
 			)
 		)
 		(property "Value" "100p"
-			(at 99.695 46.99 0)
+			(at 99.695 47.625 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
@@ -9651,30 +10191,30 @@
 			)
 		)
 		(property "Capacitance" "100p"
-			(at 101.6 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 101.6 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Material" "C0G"
 			(at 99.06 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 101.6 45.72 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Material" "C0G"
+			(at 101.6 44.45 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
 			)
 		)
 		(property "Tolerance" "+/-2%"
@@ -9686,11 +10226,11 @@
 				(hide yes)
 			)
 		)
-		(property "Case/Package" "0402"
-			(at 101.6 48.26 0)
+		(property "Package/Case" "0402"
+			(at 101.6 43.18 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.635 0.635)
 				)
 				(justify left)
 			)
@@ -9845,7 +10385,7 @@
 		(dnp no)
 		(uuid "59f217ba-1f91-4c2a-8a6b-8fd31c3df00b")
 		(property "Reference" "R8"
-			(at 142.24 52.07 0)
+			(at 141.605 51.435 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9854,16 +10394,18 @@
 			)
 		)
 		(property "Value" "82k"
-			(at 138.43 54.61 90)
+			(at 141.605 57.785 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 141.986 54.864 90)
+			(at 139.192 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9917,15 +10459,6 @@
 			)
 		)
 		(property "Resistance" "82k"
-			(at 142.24 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Power" "100mW"
 			(at 140.97 54.61 0)
 			(effects
 				(font
@@ -9934,16 +10467,61 @@
 				(hide yes)
 			)
 		)
-		(property "Case/Package" "0603"
-			(at 142.24 57.15 0)
+		(property "Power" "100mW"
+			(at 142.24 54.61 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.635 0.635)
 				)
 				(justify left)
 			)
 		)
 		(property "Tolerance" "0.10%"
+			(at 142.24 55.88 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Package/Case" "0603"
+			(at 142.24 53.34 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Voltage" "75V"
+			(at 140.97 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Composition" "Thin Film"
+			(at 140.97 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temp Coefficient" "25ppm"
+			(at 140.97 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.55mm"
 			(at 140.97 54.61 0)
 			(effects
 				(font
@@ -10109,7 +10687,7 @@
 		(dnp no)
 		(uuid "5c1b4cf8-3072-418d-9fa2-7eec3a696d2d")
 		(property "Reference" "WP9"
-			(at 118.11 153.67 0)
+			(at 118.11 153.67 90)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -10196,6 +10774,7 @@
 				(font
 					(size 0.762 0.762)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "P"
@@ -10413,7 +10992,8 @@
 	)
 	(symbol
 		(lib_id "#gplm:cap/CAP-4107-001U")
-		(at 187.96 54.61 90)
+		(at 187.96 55.88 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10421,7 +11001,7 @@
 		(dnp no)
 		(uuid "62276a4e-d22c-4553-b1d1-c586be0ec822")
 		(property "Reference" "C5"
-			(at 185.42 53.34 90)
+			(at 184.785 56.515 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10429,18 +11009,17 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2u"
-			(at 190.5 53.975 0)
+		(property "Value" "1u"
+			(at 191.135 56.515 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 191.77 53.6448 0)
+			(at 191.77 56.8452 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10449,7 +11028,7 @@
 			)
 		)
 		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
-			(at 187.96 54.61 0)
+			(at 187.96 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10458,7 +11037,7 @@
 			)
 		)
 		(property "Description" "CAP SMD 1uF 0603 10V+ X7R"
-			(at 187.96 54.61 0)
+			(at 187.96 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10467,7 +11046,7 @@
 			)
 		)
 		(property "IPN" "CAP-4107-001U"
-			(at 187.96 54.61 0)
+			(at 187.96 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10476,7 +11055,7 @@
 			)
 		)
 		(property "Manufacturer" "Kemet"
-			(at 187.96 54.61 0)
+			(at 187.96 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10485,7 +11064,7 @@
 			)
 		)
 		(property "MPN" "C0603C105K8RACTU"
-			(at 187.96 54.61 0)
+			(at 187.96 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10494,34 +11073,7 @@
 			)
 		)
 		(property "Capacitance" "1u"
-			(at 186.69 57.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Voltage" "10V+"
-			(at 186.69 59.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Material" "X7R"
-			(at 189.23 59.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Tolerance" "10%"
-			(at 187.96 54.61 0)
+			(at 187.96 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10529,13 +11081,40 @@
 				(hide yes)
 			)
 		)
-		(property "Case/Package" "0603"
-			(at 189.23 57.15 90)
+		(property "Voltage" "10V+"
+			(at 189.23 58.42 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Material" "X7R"
+			(at 187.96 58.42 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 187.96 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Package/Case" "0603"
+			(at 186.69 58.42 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
 			)
 		)
 		(pin "1"
@@ -10620,17 +11199,16 @@
 		)
 	)
 	(symbol
-		(lib_id "#gplm:dio/DIO-1006-0001")
-		(at 63.5 165.1 180)
+		(lib_id "#gplm:led/LED-2000-0000")
+		(at 66.04 165.1 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6882e9f6-b4b1-4e2a-a6e4-7365ae6c3c50")
 		(property "Reference" "D2"
-			(at 65.0875 157.48 0)
+			(at 66.04 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10638,15 +11216,16 @@
 			)
 		)
 		(property "Value" "LED_PTH"
-			(at 65.0875 160.02 0)
+			(at 67.945 172.085 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "g-dio:LED_D5.0mm_Standoff"
-			(at 63.5 165.1 0)
+			(at 66.04 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10655,7 +11234,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 63.5 165.1 0)
+			(at 66.04 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10663,8 +11242,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "LED PTH 5mm Round – Standoff"
-			(at 63.5 165.1 0)
+		(property "Description" "Light emitting diode"
+			(at 66.04 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10673,7 +11252,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 63.5 165.1 0)
+			(at 66.04 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10681,8 +11260,8 @@
 				(hide yes)
 			)
 		)
-		(property "IPN" "DIO-1006-0001"
-			(at 63.5 165.1 0)
+		(property "IPN" "LED-2000-0000"
+			(at 66.04 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10691,7 +11270,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 63.5 165.1 0)
+			(at 66.04 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10700,7 +11279,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 63.5 165.1 0)
+			(at 66.04 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10709,7 +11288,7 @@
 			)
 		)
 		(property "Current" ""
-			(at 63.5 165.1 0)
+			(at 66.04 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10718,7 +11297,59 @@
 			)
 		)
 		(property "Voltage" ""
-			(at 63.5 165.1 0)
+			(at 66.04 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Color" ""
+			(at 66.04 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "I-forward-max" ""
+			(at 66.04 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package/Case" "5mm Round"
+			(at 66.04 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "V-forward" ""
+			(at 66.04 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Wavelength" ""
+			(at 66.04 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Luminosity" ""
+			(at 66.04 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10810,7 +11441,8 @@
 	)
 	(symbol
 		(lib_id "#gplm:cap/CAP-4107-001U")
-		(at 151.13 45.72 180)
+		(at 151.13 45.72 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10818,26 +11450,25 @@
 		(dnp no)
 		(uuid "6c1bd73c-b377-45aa-9a15-297e8bd6821d")
 		(property "Reference" "C10"
-			(at 153.67 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "2.2u"
-			(at 150.495 43.18 0)
+			(at 151.765 48.895 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
+			)
+		)
+		(property "Value" "1u"
+			(at 151.765 42.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 150.1648 41.91 0)
+			(at 152.0952 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10891,30 +11522,30 @@
 			)
 		)
 		(property "Capacitance" "1u"
-			(at 153.67 43.18 0)
+			(at 151.13 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Voltage" "10V+"
-			(at 153.67 48.26 0)
+			(at 153.67 44.45 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.635 0.635)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Material" "X7R"
 			(at 153.67 45.72 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.635 0.635)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Tolerance" "10%"
@@ -10926,13 +11557,13 @@
 				(hide yes)
 			)
 		)
-		(property "Case/Package" "0603"
-			(at 153.67 50.8 0)
+		(property "Package/Case" "0603"
+			(at 153.67 46.99 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.635 0.635)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "1"
@@ -10965,6 +11596,7 @@
 				(font
 					(size 0.762 0.762)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "T2"
@@ -11042,7 +11674,7 @@
 		(dnp no)
 		(uuid "78d01ab0-f860-43ac-8c40-1ae187d1f7ad")
 		(property "Reference" "C2"
-			(at 74.93 48.26 0)
+			(at 73.025 48.895 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11051,13 +11683,12 @@
 			)
 		)
 		(property "Value" "2.2u"
-			(at 73.025 54.61 0)
+			(at 73.025 55.245 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
@@ -11115,30 +11746,30 @@
 			)
 		)
 		(property "Capacitance" "2.2u"
-			(at 74.93 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Voltage" "25V+"
-			(at 74.93 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Material" "X7R"
 			(at 72.39 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Voltage" "25V+"
+			(at 74.93 53.34 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Material" "X7R"
+			(at 74.93 52.07 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
 			)
 		)
 		(property "Tolerance" "10%"
@@ -11150,11 +11781,11 @@
 				(hide yes)
 			)
 		)
-		(property "Case/Package" "1206"
-			(at 74.8015 55.8801 0)
+		(property "Package/Case" "1206"
+			(at 74.93 50.8 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.635 0.635)
 				)
 				(justify left)
 			)
@@ -11182,10 +11813,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7d426e38-c6f4-44d5-a017-2eb477e1cbab")
 		(property "Reference" "R4"
-			(at 113.03 40.6399 0)
+			(at 111.125 40.005 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11194,16 +11824,18 @@
 			)
 		)
 		(property "Value" "36k"
-			(at 107.95 43.18 90)
+			(at 111.125 46.355 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 111.506 43.434 90)
+			(at 108.712 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11257,15 +11889,6 @@
 			)
 		)
 		(property "Resistance" "36k"
-			(at 113.03 43.1799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Power" "63mW"
 			(at 110.49 43.18 0)
 			(effects
 				(font
@@ -11274,16 +11897,61 @@
 				(hide yes)
 			)
 		)
-		(property "Case/Package" "0402"
-			(at 113.03 45.7199 0)
+		(property "Power" "63mW"
+			(at 111.76 41.7774 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.635 0.635)
 				)
 				(justify left)
 			)
 		)
 		(property "Tolerance" "0.10%"
+			(at 111.76 43.18 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Package/Case" "0402"
+			(at 111.76 44.5826 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 110.49 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Composition" "Thin Film"
+			(at 110.49 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temp Coefficient" "25ppm"
+			(at 110.49 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.35mm"
 			(at 110.49 43.18 0)
 			(effects
 				(font
@@ -11309,16 +11977,15 @@
 	)
 	(symbol
 		(lib_id "#gplm:res/RES-2002-027K")
-		(at 110.49 67.31 0)
+		(at 110.49 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "83ef9222-df92-41da-8d89-149523d98443")
 		(property "Reference" "R5"
-			(at 112.3833 64.7699 0)
+			(at 111.125 66.675 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11327,16 +11994,18 @@
 			)
 		)
 		(property "Value" "27k"
-			(at 107.95 67.31 90)
+			(at 111.125 73.025 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 111.506 67.564 90)
+			(at 108.712 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11345,7 +12014,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-rt_1-to-0.01_rohs_l.pdf"
-			(at 110.49 67.31 0)
+			(at 110.49 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11354,7 +12023,7 @@
 			)
 		)
 		(property "Description" "RES SMD 0402 27 KOHM 63mW Thin Film"
-			(at 110.49 67.31 0)
+			(at 110.49 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11363,7 +12032,7 @@
 			)
 		)
 		(property "IPN" "RES-2002-027K"
-			(at 110.49 67.31 0)
+			(at 110.49 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11372,7 +12041,7 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
-			(at 110.49 67.31 0)
+			(at 110.49 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11381,7 +12050,7 @@
 			)
 		)
 		(property "MPN" "RT0402BRD0727KL"
-			(at 110.49 67.31 0)
+			(at 110.49 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11390,16 +12059,7 @@
 			)
 		)
 		(property "Resistance" "27k"
-			(at 112.3833 67.3099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Power" "63mW"
-			(at 110.49 67.31 0)
+			(at 110.49 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11407,17 +12067,62 @@
 				(hide yes)
 			)
 		)
-		(property "Case/Package" "0402"
-			(at 112.3833 69.8499 0)
+		(property "Power" "63mW"
+			(at 111.76 68.3148 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.635 0.635)
 				)
 				(justify left)
 			)
 		)
 		(property "Tolerance" "0.10%"
-			(at 110.49 67.31 0)
+			(at 111.76 69.7174 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Package/Case" "0402"
+			(at 111.76 71.12 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 110.49 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Composition" "Thin Film"
+			(at 110.49 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temp Coefficient" "25ppm"
+			(at 110.49 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.35mm"
+			(at 110.49 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11450,7 +12155,7 @@
 		(dnp no)
 		(uuid "87e32bc6-02d4-4239-bd23-0bd2f64e1691")
 		(property "Reference" "Q1"
-			(at 60.96 34.29 90)
+			(at 60.96 33.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11516,7 +12221,7 @@
 			)
 		)
 		(property "MPN" "DMP3099L"
-			(at 60.96 43.18 90)
+			(at 61.595 34.925 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11701,7 +12406,7 @@
 		(dnp no)
 		(uuid "92405520-d335-45b4-843d-565a37305018")
 		(property "Reference" "WP10"
-			(at 118.11 158.75 0)
+			(at 118.11 158.75 90)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -12032,7 +12737,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 214.63 35.56 180)
+		(at 215.9 35.56 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12041,7 +12746,7 @@
 		(fields_autoplaced yes)
 		(uuid "a5147fd5-9ffe-4c77-aca9-da6321589c39")
 		(property "Reference" "#PWR016"
-			(at 214.63 29.21 0)
+			(at 215.9 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12050,7 +12755,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 214.63 30.48 0)
+			(at 215.9 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12058,7 +12763,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 214.63 35.56 0)
+			(at 215.9 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12067,7 +12772,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 214.63 35.56 0)
+			(at 215.9 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12076,7 +12781,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 214.63 35.56 0)
+			(at 215.9 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12098,7 +12803,8 @@
 	)
 	(symbol
 		(lib_id "#gplm:cap/CAP-4107-02U2")
-		(at 203.2 45.72 180)
+		(at 205.74 45.72 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12106,26 +12812,25 @@
 		(dnp no)
 		(uuid "aa248aae-6332-48c5-afed-e09fea50fc5d")
 		(property "Reference" "C6"
-			(at 205.74 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "2.2u"
-			(at 202.565 43.18 0)
+			(at 206.375 42.545 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
+			)
+		)
+		(property "Value" "2.2u"
+			(at 206.375 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 202.2348 41.91 0)
+			(at 206.7052 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12134,7 +12839,7 @@
 			)
 		)
 		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
-			(at 203.2 45.72 0)
+			(at 205.74 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12143,7 +12848,7 @@
 			)
 		)
 		(property "Description" "CAP SMD 2.2uF 0603 10V+ X7R"
-			(at 203.2 45.72 0)
+			(at 205.74 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12152,7 +12857,7 @@
 			)
 		)
 		(property "IPN" "CAP-4107-02U2"
-			(at 203.2 45.72 0)
+			(at 205.74 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12161,7 +12866,7 @@
 			)
 		)
 		(property "Manufacturer" "Kemet"
-			(at 203.2 45.72 0)
+			(at 205.74 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12170,7 +12875,7 @@
 			)
 		)
 		(property "MPN" "C0603C225K8RACTU"
-			(at 203.2 45.72 0)
+			(at 205.74 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12179,34 +12884,7 @@
 			)
 		)
 		(property "Capacitance" "2.2u"
-			(at 205.74 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Voltage" "10V+"
-			(at 205.74 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Material" "X7R"
 			(at 205.74 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Tolerance" "10%"
-			(at 203.2 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12214,13 +12892,40 @@
 				(hide yes)
 			)
 		)
-		(property "Case/Package" "0603"
-			(at 205.74 50.8 0)
+		(property "Voltage" "10V+"
+			(at 208.28 44.45 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Material" "X7R"
+			(at 208.28 45.72 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 205.74 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Package/Case" "0603"
+			(at 208.28 46.99 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
 			)
 		)
 		(pin "1"
@@ -12240,7 +12945,8 @@
 	)
 	(symbol
 		(lib_id "#gplm:cap/CAP-4107-001U")
-		(at 226.06 54.61 90)
+		(at 228.6 55.88 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12248,7 +12954,7 @@
 		(dnp no)
 		(uuid "ae8a33e5-d758-44ee-9461-6a26b17dd00d")
 		(property "Reference" "C7"
-			(at 223.52 53.34 90)
+			(at 225.425 56.515 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12256,18 +12962,17 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2u"
-			(at 228.6 53.975 0)
+		(property "Value" "1u"
+			(at 231.775 56.515 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 229.87 53.6448 0)
+			(at 232.41 56.8452 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12276,7 +12981,7 @@
 			)
 		)
 		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
-			(at 226.06 54.61 0)
+			(at 228.6 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12285,7 +12990,7 @@
 			)
 		)
 		(property "Description" "CAP SMD 1uF 0603 10V+ X7R"
-			(at 226.06 54.61 0)
+			(at 228.6 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12294,7 +12999,7 @@
 			)
 		)
 		(property "IPN" "CAP-4107-001U"
-			(at 226.06 54.61 0)
+			(at 228.6 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12303,7 +13008,7 @@
 			)
 		)
 		(property "Manufacturer" "Kemet"
-			(at 226.06 54.61 0)
+			(at 228.6 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12312,7 +13017,7 @@
 			)
 		)
 		(property "MPN" "C0603C105K8RACTU"
-			(at 226.06 54.61 0)
+			(at 228.6 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12321,34 +13026,7 @@
 			)
 		)
 		(property "Capacitance" "1u"
-			(at 224.79 57.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Voltage" "10V+"
-			(at 224.79 59.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Material" "X7R"
-			(at 227.33 59.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Tolerance" "10%"
-			(at 226.06 54.61 0)
+			(at 228.6 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12356,13 +13034,40 @@
 				(hide yes)
 			)
 		)
-		(property "Case/Package" "0603"
-			(at 227.33 57.15 90)
+		(property "Voltage" "10V+"
+			(at 229.87 58.42 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Material" "X7R"
+			(at 228.6 58.42 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 228.6 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Package/Case" "0603"
+			(at 227.33 58.42 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
 			)
 		)
 		(pin "1"
@@ -12382,7 +13087,7 @@
 	)
 	(symbol
 		(lib_id "power:+9V")
-		(at 242.57 38.1 0)
+		(at 245.11 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12390,7 +13095,7 @@
 		(dnp no)
 		(uuid "b28f3af8-ebb0-4b15-907b-30ff197abba4")
 		(property "Reference" "#PWR017"
-			(at 242.57 41.91 0)
+			(at 245.11 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12399,7 +13104,7 @@
 			)
 		)
 		(property "Value" "-9V_PRE"
-			(at 242.57 34.29 0)
+			(at 245.11 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12407,7 +13112,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 242.57 38.1 0)
+			(at 245.11 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12416,7 +13121,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 242.57 38.1 0)
+			(at 245.11 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12425,7 +13130,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+9V\""
-			(at 242.57 38.1 0)
+			(at 245.11 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12649,7 +13354,7 @@
 		(dnp no)
 		(uuid "b59dcd90-d047-46ed-b54b-b181222996be")
 		(property "Reference" "WP7"
-			(at 118.11 140.97 0)
+			(at 118.11 140.97 90)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -12732,7 +13437,7 @@
 		(dnp no)
 		(uuid "c32a5043-5cd1-403e-bee0-1f3bfba271d2")
 		(property "Reference" "WP8"
-			(at 118.11 148.59 0)
+			(at 118.11 148.59 90)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -12814,24 +13519,27 @@
 		(dnp no)
 		(uuid "cf5e3695-7371-4447-91f3-690cffa60c7d")
 		(property "Reference" "R1"
-			(at 50.8 162.56 90)
+			(at 47.625 164.465 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "3.3k"
-			(at 50.8 167.64 90)
+			(at 53.975 164.465 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
 		(property "Footprint" "g-res:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.5mm_Horizontal"
-			(at 51.054 164.084 90)
+			(at 50.8 166.878 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12885,14 +13593,6 @@
 			)
 		)
 		(property "Resistance" "3.3k"
-			(at 46.99 166.37 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" "0.25W"
 			(at 50.8 165.1 0)
 			(effects
 				(font
@@ -12901,15 +13601,61 @@
 				(hide yes)
 			)
 		)
-		(property "Case/Package" "Axial"
-			(at 55.88 166.37 90)
+		(property "Power" "0.25W"
+			(at 50.8 163.83 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "1.00%"
+			(at 52.07 163.83 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Package/Case" "Ax-7mm"
+			(at 49.53 163.83 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Voltage" "250V"
+			(at 50.8 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Tolerance" "1.00%"
+		(property "Composition" "Metal Film"
+			(at 50.8 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temp Coefficient" "100ppm"
+			(at 50.8 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.6mm"
 			(at 50.8 165.1 0)
 			(effects
 				(font
@@ -12935,16 +13681,15 @@
 	)
 	(symbol
 		(lib_id "#gplm:cap/CAP-4106-02U2")
-		(at 245.11 45.72 0)
+		(at 248.92 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d7ae3185-17b5-4ed8-8c08-2175c20d9a45")
 		(property "Reference" "C8"
-			(at 248.92 41.9099 0)
+			(at 249.555 42.545 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12953,17 +13698,16 @@
 			)
 		)
 		(property "Value" "2.2u"
-			(at 245.745 48.26 0)
+			(at 249.555 48.895 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 246.0752 49.53 0)
+			(at 249.8852 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12972,7 +13716,7 @@
 			)
 		)
 		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
-			(at 245.11 45.72 0)
+			(at 248.92 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12981,7 +13725,7 @@
 			)
 		)
 		(property "Description" "CAP SMD 2.2uF 1206 25V+ X7R"
-			(at 245.11 45.72 0)
+			(at 248.92 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12990,7 +13734,7 @@
 			)
 		)
 		(property "IPN" "CAP-4106-02U2"
-			(at 245.11 45.72 0)
+			(at 248.92 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12999,7 +13743,7 @@
 			)
 		)
 		(property "Manufacturer" "Kemet"
-			(at 245.11 45.72 0)
+			(at 248.92 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13008,7 +13752,7 @@
 			)
 		)
 		(property "MPN" "C1206C225K3RACTU"
-			(at 245.11 45.72 0)
+			(at 248.92 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13017,34 +13761,34 @@
 			)
 		)
 		(property "Capacitance" "2.2u"
-			(at 248.92 44.4499 0)
+			(at 248.92 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Voltage" "25V+"
-			(at 248.92 46.9899 0)
+			(at 251.46 44.3174 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.635 0.635)
 				)
 				(justify left)
 			)
 		)
 		(property "Material" "X7R"
-			(at 245.11 45.72 0)
+			(at 251.46 45.72 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.635 0.635)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
 		(property "Tolerance" "10%"
-			(at 245.11 45.72 0)
+			(at 248.92 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13052,11 +13796,11 @@
 				(hide yes)
 			)
 		)
-		(property "Case/Package" "1206"
-			(at 248.92 49.5299 0)
+		(property "Package/Case" "1206"
+			(at 251.46 47.1226 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.635 0.635)
 				)
 				(justify left)
 			)
@@ -13087,7 +13831,7 @@
 		(dnp no)
 		(uuid "dede4eb5-bbc6-45e4-9867-9907ebc3cbbe")
 		(property "Reference" "WP11"
-			(at 118.11 165.1 0)
+			(at 118.11 165.1 90)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -13169,24 +13913,27 @@
 		(dnp no)
 		(uuid "e285fa35-d30a-424a-a66b-cdbe60b588b1")
 		(property "Reference" "R2"
-			(at 50.8 172.72 90)
+			(at 47.625 174.625 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "3.3k"
-			(at 50.8 177.8 90)
+			(at 53.975 174.625 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 51.054 174.244 90)
+			(at 50.8 177.038 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13240,14 +13987,6 @@
 			)
 		)
 		(property "Resistance" "3.3k"
-			(at 46.99 176.53 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" "100mW"
 			(at 50.8 175.26 0)
 			(effects
 				(font
@@ -13256,15 +13995,61 @@
 				(hide yes)
 			)
 		)
-		(property "Case/Package" "0603"
-			(at 55.88 176.53 90)
+		(property "Power" "100mW"
+			(at 50.8 173.99 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "0.10%"
+			(at 52.07 173.99 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Package/Case" "0603"
+			(at 49.53 173.99 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Voltage" "75V"
+			(at 50.8 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Tolerance" "0.10%"
+		(property "Composition" "Thin Film"
+			(at 50.8 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temp Coefficient" "25ppm"
+			(at 50.8 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.55mm"
 			(at 50.8 175.26 0)
 			(effects
 				(font
@@ -13290,7 +14075,7 @@
 	)
 	(symbol
 		(lib_id "#gplm:reg/REG-1006-0001")
-		(at 226.06 43.18 0)
+		(at 228.6 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13298,7 +14083,7 @@
 		(dnp no)
 		(uuid "e2e48296-ce0c-4f70-80f5-71d39480ac1c")
 		(property "Reference" "U3"
-			(at 226.06 31.75 0)
+			(at 228.6 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13306,7 +14091,7 @@
 			)
 		)
 		(property "Value" "LM2664M6X/NOPB"
-			(at 226.06 34.29 0)
+			(at 228.6 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13316,7 +14101,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 160.02 12.7 0)
+			(at 162.56 12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13325,7 +14110,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm2664.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1746819818644&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Flm2664"
-			(at 160.02 12.7 0)
+			(at 162.56 12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13334,7 +14119,7 @@
 			)
 		)
 		(property "Description" "Charge Pump, 1.8-5.5Vin, 80kHz Fsw, 40mA, SOT23-6"
-			(at 226.06 43.18 0)
+			(at 228.6 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13343,7 +14128,7 @@
 			)
 		)
 		(property "IPN" "REG-1006-0001"
-			(at 226.06 43.18 0)
+			(at 228.6 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13352,7 +14137,7 @@
 			)
 		)
 		(property "Manufacturer" "TI"
-			(at 226.06 43.18 0)
+			(at 228.6 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13361,7 +14146,7 @@
 			)
 		)
 		(property "MPN" "LM2664M6X/NOPB"
-			(at 226.06 34.29 0)
+			(at 228.6 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13369,7 +14154,7 @@
 			)
 		)
 		(property "Voltage" "Ratiometric"
-			(at 226.06 30.48 0)
+			(at 228.6 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13378,7 +14163,7 @@
 			)
 		)
 		(property "Current" "40mA"
-			(at 226.06 33.02 0)
+			(at 228.6 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13415,7 +14200,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 110.49 73.66 0)
+		(at 110.49 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13424,7 +14209,7 @@
 		(fields_autoplaced yes)
 		(uuid "e40f8543-fda0-46e7-8c6d-f4905e8df9be")
 		(property "Reference" "#PWR08"
-			(at 110.49 80.01 0)
+			(at 110.49 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13433,7 +14218,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 110.49 78.74 0)
+			(at 110.49 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13441,7 +14226,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 110.49 73.66 0)
+			(at 110.49 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13450,7 +14235,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 110.49 73.66 0)
+			(at 110.49 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13459,7 +14244,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 110.49 73.66 0)
+			(at 110.49 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13873,7 +14658,7 @@
 		(dnp no)
 		(uuid "f592095b-4a6b-472a-afb1-b9c986900868")
 		(property "Reference" "WP12"
-			(at 118.11 170.18 0)
+			(at 118.11 170.18 90)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -14111,7 +14896,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 245.11 55.88 0)
+		(at 248.92 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14120,7 +14905,7 @@
 		(fields_autoplaced yes)
 		(uuid "fac54e34-be45-41d1-863f-ce7d62b1fc54")
 		(property "Reference" "#PWR018"
-			(at 245.11 62.23 0)
+			(at 248.92 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14129,7 +14914,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 245.11 60.96 0)
+			(at 248.92 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14137,7 +14922,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 245.11 55.88 0)
+			(at 248.92 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14146,7 +14931,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 245.11 55.88 0)
+			(at 248.92 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14155,7 +14940,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 245.11 55.88 0)
+			(at 248.92 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14185,7 +14970,7 @@
 		(dnp no)
 		(uuid "fdfdeedd-a2b5-4796-92f3-465b2e0d7579")
 		(property "Reference" "C1"
-			(at 52.07 48.26 0)
+			(at 50.165 48.895 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14194,16 +14979,15 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 50.165 54.61 0)
+			(at 50.165 55.245 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805:2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 50.4952 55.88 0)
 			(effects
 				(font
@@ -14258,30 +15042,30 @@
 			)
 		)
 		(property "Capacitance" "1u"
-			(at 52.07 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Voltage" "25V+"
-			(at 52.07 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Material" "X7R"
 			(at 49.53 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Voltage" "25V+"
+			(at 52.07 53.34 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Material" "X7R"
+			(at 52.07 52.07 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
 			)
 		)
 		(property "Tolerance" "10%"
@@ -14293,11 +15077,11 @@
 				(hide yes)
 			)
 		)
-		(property "Case/Package" "0805"
-			(at 52.07 55.88 0)
+		(property "Package/Case" "0805"
+			(at 52.07 50.8 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.635 0.635)
 				)
 				(justify left)
 			)
