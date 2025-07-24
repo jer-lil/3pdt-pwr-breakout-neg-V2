@@ -141,7 +141,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "#gplm:cap/CAP-4001-0101"
+		(symbol "#gplm:cap/CAP-4001-0100"
 			(pin_numbers
 				(hide yes)
 			)
@@ -160,7 +160,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "100p"
+			(property "Value" "10p"
 				(at 0.635 -3.175 0)
 				(effects
 					(font
@@ -178,7 +178,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.murata.com/en-us/products/productdetail?partno=GRM1555C1H101GA01D%23"
+			(property "Datasheet" "https://www.murata.com/en-us/products/productdetail?partno=GRM1555C1H100GA01D%23"
 				(at 0 0 0)
 				(effects
 					(font
@@ -187,7 +187,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "CAP SMD 100p 0402 50V C0G +/-2%"
+			(property "Description" "CAP SMD 10p 0402 50V C0G +/-2%"
 				(at 0 0 0)
 				(effects
 					(font
@@ -223,7 +223,7 @@
 					(justify left)
 				)
 			)
-			(property "IPN" "CAP-4001-0101"
+			(property "IPN" "CAP-4001-0100"
 				(at 0 0 0)
 				(effects
 					(font
@@ -241,7 +241,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "GRM1555C1H101GA01D"
+			(property "MPN" "GRM1555C1H100GA01D"
 				(at 0 0 0)
 				(effects
 					(font
@@ -250,7 +250,7 @@
 					(hide yes)
 				)
 			)
-			(property "Capacitance" "100p"
+			(property "Capacitance" "10p"
 				(at 0 0 0)
 				(effects
 					(font
@@ -286,7 +286,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "cap/CAP-4001-0101_0_1"
+			(symbol "cap/CAP-4001-0100_0_1"
 				(polyline
 					(pts
 						(xy -2.032 0.762) (xy 2.032 0.762)
@@ -312,7 +312,7 @@
 					)
 				)
 			)
-			(symbol "cap/CAP-4001-0101_1_1"
+			(symbol "cap/CAP-4001-0100_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 2.794)
@@ -2440,6 +2440,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Current" "1A"
@@ -2448,6 +2449,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "ki_keywords" "1A, 16V Precision Linear Voltage Regulator"
@@ -2693,6 +2695,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Current" "40mA"
@@ -2701,6 +2704,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "ki_keywords" "Voltage converter"
@@ -10110,13 +10114,13 @@
 		)
 	)
 	(symbol
-		(lib_id "#gplm:cap/CAP-4001-0101")
+		(lib_id "#gplm:cap/CAP-4001-0100")
 		(at 99.06 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "4a76d1cd-f8d2-4a0b-b7c6-90ceb504a001")
 		(property "Reference" "C3"
 			(at 99.695 41.275 0)
@@ -10145,7 +10149,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.murata.com/en-us/products/productdetail?partno=GRM1555C1H101GA01D%23"
+		(property "Datasheet" "https://www.murata.com/en-us/products/productdetail?partno=GRM1555C1H100GA01D%23"
 			(at 99.06 44.45 0)
 			(effects
 				(font
@@ -10154,7 +10158,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP SMD 100p 0402 50V C0G +/-2%"
+		(property "Description" "CAP SMD 10p 0402 50V C0G +/-2%"
 			(at 99.06 44.45 0)
 			(effects
 				(font
@@ -10163,7 +10167,7 @@
 				(hide yes)
 			)
 		)
-		(property "IPN" "CAP-4001-0101"
+		(property "IPN" "CAP-4001-0100"
 			(at 99.06 44.45 0)
 			(effects
 				(font
@@ -10181,7 +10185,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM1555C1H101GA01D"
+		(property "MPN" "GRM1555C1H100GA01D"
 			(at 99.06 44.45 0)
 			(effects
 				(font
@@ -10190,7 +10194,7 @@
 				(hide yes)
 			)
 		)
-		(property "Capacitance" "100p"
+		(property "Capacitance" "10p"
 			(at 99.06 44.45 0)
 			(effects
 				(font
