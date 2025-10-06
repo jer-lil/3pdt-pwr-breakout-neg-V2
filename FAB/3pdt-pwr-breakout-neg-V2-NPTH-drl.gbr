@@ -1,12 +1,12 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,9.0.2*%
-%TF.CreationDate,2025-07-23T23:08:57-07:00*%
+%TF.CreationDate,2025-10-05T19:26:56-07:00*%
 %TF.ProjectId,3pdt-pwr-breakout-neg-V2,33706474-2d70-4777-922d-627265616b6f,rev?*%
-%TF.SameCoordinates,Original*%
-%TF.FileFunction,NonPlated,1,2,NPTH*%
+%TF.SameCoordinates,PX2d4cae0PY8d9ee20*%
+%TF.FileFunction,NonPlated,1,4,NPTH*%
 %TF.FilePolarity,Positive*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 9.0.2) date 2025-07-23 23:08:57*
+G04 Created by KiCad (PCBNEW 9.0.2) date 2025-10-05 19:26:56*
 %MOMM*%
 %LPD*%
 G01*

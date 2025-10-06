@@ -100,7 +100,7 @@
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
 		(tenting front back)
-		(aux_axis_origin 67.5 150)
+		(aux_axis_origin 47.5 148.5)
 		(grid_origin 67.5 150)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_5555555f_5755f5ff)
@@ -2711,7 +2711,7 @@
 		(path "/2ac724eb-8233-4c35-804c-a0d9a2b9f6a8")
 		(sheetname "/")
 		(sheetfile "3pdt-pwr-breakout-neg-V2.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(fp_line
 			(start -3.429 3.429)
 			(end 3.429 3.429)
